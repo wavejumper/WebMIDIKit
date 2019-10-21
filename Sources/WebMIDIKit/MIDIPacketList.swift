@@ -7,6 +7,7 @@
 //
 
 import AVFoundation
+import CoreAudio
 
 extension MIDIPacketList {
     /// this needs to be mutating since we are potentionally changint the timestamp
