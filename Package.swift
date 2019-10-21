@@ -15,9 +15,12 @@ let package = Package(
     targets: [
         .target(
             name: "WebMIDIKit",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"
+        ),
         .testTarget(
             name: "WebMIDIKitTests",
-            dependencies: []),
+            dependencies: [],
+            path: "Tests"),
     ]
 )
